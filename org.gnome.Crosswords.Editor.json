@@ -1,8 +1,11 @@
 {
     "app-id" : "org.gnome.Crosswords.Editor",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "45",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
+    "sdk-extensions" : [
+        "org.freedesktop.Sdk.Extension.rust-stable"
+    ],
     "command" : "crossword-editor",
     "finish-args" : [
         "--device=dri",
