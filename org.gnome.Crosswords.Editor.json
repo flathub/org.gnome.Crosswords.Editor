@@ -1,7 +1,7 @@
 {
     "app-id" : "org.gnome.Crosswords.Editor",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "47",
+    "runtime-version" : "48",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -54,44 +54,11 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/jrb/libipuz.git",
-                    "tag" : "6a7f3aa"
+                    "tag" : "0.5.2"
                 }
             ]
         },
         "python3-requirements.json",
-        {
-            "name" : "libsass",
-            "buildsystem" : "meson",
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://github.com/lazka/libsass.git",
-                    "commit" : "aac79dccd3c8f7e8f22125f87a119f3b1ee9d487"
-                }
-            ]
-        },
-        {
-            "name" : "sassc",
-            "buildsystem" : "meson",
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://github.com/lazka/sassc.git",
-                    "commit" : "a1950c2d95ea4c051feb90bb1f43559fbb54bf36"
-                }
-            ]
-        },
-        {
-            "name" : "libadwaita",
-            "buildsystem" : "meson",
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "tag" : "1.7.alpha"
-                }
-            ]
-        },
         {
             "name" : "crosswords",
             "buildsystem" : "meson",
@@ -101,7 +68,7 @@
                 {
                     "type" : "git",
                     "url": "https://gitlab.gnome.org/jrb/crosswords.git",
-                    "tag": "0.3.14"
+                    "tag": "0.3.15"
                 }
             ]
         }
